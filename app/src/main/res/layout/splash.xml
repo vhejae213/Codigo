@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paint_colorful_overlay_139992_3840x2400"
+    android:theme="@style/ThemeOverlay.Codigo.FullscreenContainer"
+    tools:context=".Splash">
+
+    <ImageView
+        android:id="@+id/logoid"
+        android:transitionName="logo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/codi"
+        android:transitionName="appname"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:text="Codigo"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_background"
+        android:textSize="50dp"
+        tools:ignore="RtlCompat" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

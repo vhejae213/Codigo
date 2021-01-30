@@ -9,8 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Codigo">
-        <activity android:name=".Html"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".err404"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".view" />
+        <activity android:name=".Html" />
+        <activity android:name=".Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,5 +21,7 @@
             </intent-filter>
         </activity>
     </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
 </manifest>

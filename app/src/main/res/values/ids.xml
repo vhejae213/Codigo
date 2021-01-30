@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="logoid" type="id" />
+    <item name="html14" type="id" />
+    <item name="html13" type="id" />
+    <item name="html12" type="id" />
+    <item name="html11" type="id" />
+    <item name="html10" type="id" />
+    <item name="html9" type="id" />
+    <item name="html8" type="id" />
+    <item name="html7" type="id" />
+    <item name="html6" type="id" />
+    <item name="html5" type="id" />
+    <item name="html4" type="id" />
+    <item name="html3" type="id" />
+    <item name="htmlEditor" type="id" />
+    <item name="htmlIntro" type="id" />
+    <item name="htmlTutorial" type="id" />
+    <item name="button2" type="id" />
+    <item name="htmlHome" type="id" />
+    <item name="layout11" type="id" />
+</resources>
